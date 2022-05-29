@@ -291,12 +291,6 @@ header{
     .image2{
         margin: auto;
     }
-    .main_menu:active .row{
-        left: -100px;
-    }
-    .main_menu:active .menu{
-        left: 10px;
-    }
     .nachalo{
         font-size: 32px;
     }
