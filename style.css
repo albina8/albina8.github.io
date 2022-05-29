@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+.body1{
+    background-image: url("images/Simple\ Shiny.svg");
+    background-repeat: no-repeat;
+}
+body{
+    background-color: rgb(60, 26, 138,1);
+    margin: 0;
+    width: 100%;
+}
+.m2{
+    padding: 70px;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    position: relative;
+    margin-top: 20px;
+}
+.mh1{
+    margin-top: 60px;
+}
+.otdel{
+    width: 100%;
+    height: 5px;
+    background-color: white;
+}
+.motdel1{
+    margin-top: -4px;
+}
+.motdel2{
+    margin-bottom: -60px;
+}
+.main_image{
+    width: 275px;
+    margin-left: 40px;
+    margin-bottom: 0;
+}
+.main_image1{
+    width: 250px;
+    margin-left: 40px;
+    margin-bottom: 0;
+}
+.polosa{
+    width: 60px;
+    height: 8px;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 10px;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 55px;
+    left: 40px;
+    transition: 0.6s;
+}
+.punkt{
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.punkt2{
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.punkttxt{
+    font-family: 'Comfortaa', cursive;
+    color: rgba(60, 26, 138, 1);
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.menu{
+    position: absolute;
+    top: 55px;
+    left: -250px;
+    transition: 0.3s;
+}
+.main_menu:hover .row{
+    left: -100px;
+}
+.main_menu:hover .menu{
+    left: 10px;
+}
+.imp{
+    width: 300px;
+    float: left;
+    margin: 31px;
+    border: solid 5px white;
+    border-radius: 15px;
+}
+.imp2{
+    width: 500px;
+    float: right;
+    margin: 31px;
+    border: solid 5px white;
+    border-radius: 15px;
+}
+.nachalo{
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    text-align: left;
+    margin-top: 30px;
+    font-size: 35px;
+    margin-bottom: 7px;
+}
+.wid{
+    margin: 30px 80px;
+}
+.m{
+    margin-top: 70px;
+}
+p{
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    font-size: 21px;
+    margin-top: 7px;
+}
+.m_txt{
+    margin: 30px;
+}
+footer{
+    background-color: #30156E;
+    width: 100%;
+    margin-top: 60px;
+    height: 100px;
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-around;
+}
+.b{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+}
+.but{
+    width: 25px;
+    height: 50px;
+    margin: 2px;
+    border-radius: 100px;
+    border: solid 5px #ffffff;
+    position: relative;
+}
+.but1{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    animation: eye 4s infinite;
+}
+.but2{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    animation: eye1 4s infinite;
+}
+@keyframes eye{
+    0% {bottom:20px; left: 5px;}
+    50% {transform: translate(7px);}
+    100% {bottom:20px; left: 5px;}
+}
+@keyframes eye1{
+    0% {bottom:20px; left: 5px;}
+    50% {transform: translate(-7px);}
+    100% {bottom:20px; left: 5px;}
+}
+.other_pages{
+    background-color: #481FA6;
+    padding-top: 40px;
+    padding-bottom: 1px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.svg{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+.svg_im{
+    width: 60px;
+    margin: 10px;
+    height: 60px;
+}
+.image{
+    height: 300px;
+    margin: 20px;
+    border: solid 5px white;
+    border-radius: 15px;
+}
+.image2{
+    height: 230px;
+    margin: 25px;
+    border: solid 5px white;
+    border-radius: 15px;
+    transition: 0.7s;
+}
+.i2{
+    width: 410px;
+    height: 250px;
+}
+.image2:hover{
+    transform: scale(1.06);
+}
+.s_m{
+    border-radius: 50%;
+    transition: 0.7s;
+    background-color: rgba(60, 26, 138, 1);
+}
+.i:hover{
+    background-color: #C837AC;
+}
+.t:hover{
+    background-color: #24A2E0;
+}
+.w:hover{
+    background-color: #0077FE;
+}
+.bold{
+    font-weight: bold;
+}
+header{
+    width: 100%;
+}
+@media (max-width:768px){
+    .card{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 130px;
+        margin-top: 70px;
+    }
+    .wid{
+        margin: 30px;
+    }
+    .menu{
+        margin: 30px;
+    }
+    .mh1{
+        margin-top: 180px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .main_image{
+        width: 160px;
+        margin-left: 20px;
+    }
+    .main_image1{
+        width: 135px;
+    }
+    .image{
+        width: 200px;
+        margin: auto;
+    }
+    .svg{
+        flex-direction: row;
+    }
+    .column{
+        align-items: center;
+    }
+    .p_card{
+        text-align: center;
+    }
+    .image2{
+        margin: auto;
+    }
+    .main_menu:active .row{
+        left: -100px;
+    }
+    .main_menu:active .menu{
+        left: 10px;
+    }
+    .nachalo{
+        font-size: 32px;
+    }
+    .imp2{
+        width: 400px;
+    }
+}
